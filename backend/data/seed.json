@@ -1,0 +1,170 @@
+{
+  "landing": {
+    "hero": {
+      "title": "Welcome to Our Store",
+      "subtitle": "Discover amazing products at great prices",
+      "ctaText": "Shop Now",
+      "ctaLink": "#products"
+    },
+    "features": [
+      {
+        "id": 1,
+        "title": "Free Shipping",
+        "description": "On orders over $50",
+        "icon": "🚚"
+      },
+      {
+        "id": 2,
+        "title": "Quality Products",
+        "description": "Carefully curated selection",
+        "icon": "⭐"
+      },
+      {
+        "id": 3,
+        "title": "24/7 Support",
+        "description": "We're here to help",
+        "icon": "💬"
+      }
+    ],
+    "featuredProductIds": [1, 2, 3, 4, 5, 6]
+  },
+  "products": [
+    {
+      "id": 1,
+      "name": "Premium Wireless Headphones",
+      "description": "High-quality wireless headphones with noise cancellation and 30-hour battery life. Perfect for music lovers and professionals.",
+      "price": 149.99,
+      "category": "Electronics",
+      "stock": 45,
+      "featured": true,
+      "imageUrl": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=400",
+      "rating": 4.5,
+      "tags": ["audio", "wireless", "premium"],
+      "variants": [
+        { "color": "Black", "available": true },
+        { "color": "Silver", "available": true },
+        { "color": "Blue", "available": false }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Minimalist Backpack",
+      "description": "Sleek and functional backpack with laptop compartment. Water-resistant material and ergonomic design.",
+      "price": 79.99,
+      "category": "Accessories",
+      "stock": 32,
+      "featured": true,
+      "imageUrl": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=400",
+      "rating": 4.7,
+      "tags": ["bags", "travel", "minimalist"],
+      "variants": [
+        { "color": "Black", "available": true },
+        { "color": "Gray", "available": true }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Smart Fitness Watch",
+      "description": "Track your fitness goals with heart rate monitoring, GPS, and sleep tracking. 7-day battery life.",
+      "price": 199.99,
+      "category": "Electronics",
+      "stock": 28,
+      "featured": true,
+      "imageUrl": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=400",
+      "rating": 4.6,
+      "tags": ["fitness", "wearable", "smart"],
+      "variants": [
+        { "size": "Small", "available": true },
+        { "size": "Medium", "available": true },
+        { "size": "Large", "available": true }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Organic Cotton T-Shirt",
+      "description": "Comfortable and sustainable t-shirt made from 100% organic cotton. Available in multiple colors.",
+      "price": 29.99,
+      "category": "Clothing",
+      "stock": 120,
+      "featured": true,
+      "imageUrl": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=400",
+      "rating": 4.3,
+      "tags": ["clothing", "organic", "casual"],
+      "variants": [
+        { "color": "White", "size": "S", "available": true },
+        { "color": "White", "size": "M", "available": true },
+        { "color": "White", "size": "L", "available": true },
+        { "color": "Black", "size": "S", "available": true },
+        { "color": "Black", "size": "M", "available": true },
+        { "color": "Black", "size": "L", "available": true }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Stainless Steel Water Bottle",
+      "description": "Insulated water bottle keeps drinks cold for 24 hours or hot for 12 hours. BPA-free and eco-friendly.",
+      "price": 34.99,
+      "category": "Accessories",
+      "stock": 85,
+      "featured": true,
+      "imageUrl": "https://images.unsplash.com/photo-1602143407151-7111542de6e8?w=400",
+      "rating": 4.8,
+      "tags": ["drinkware", "eco-friendly", "insulated"],
+      "variants": [
+        { "size": "500ml", "available": true },
+        { "size": "750ml", "available": true },
+        { "size": "1L", "available": true }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Wireless Charging Pad",
+      "description": "Fast wireless charging pad compatible with all Qi-enabled devices. Sleek design with LED indicator.",
+      "price": 39.99,
+      "category": "Electronics",
+      "stock": 65,
+      "featured": true,
+      "imageUrl": "https://images.unsplash.com/photo-1591290619762-c588f4cb9f4a?w=400",
+      "rating": 4.4,
+      "tags": ["charging", "wireless", "tech"],
+      "variants": [
+        { "color": "Black", "available": true },
+        { "color": "White", "available": true }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Ceramic Coffee Mug Set",
+      "description": "Set of 4 handcrafted ceramic mugs. Microwave and dishwasher safe. Perfect for your morning coffee.",
+      "price": 49.99,
+      "category": "Home & Kitchen",
+      "stock": 40,
+      "featured": false,
+      "imageUrl": "https://images.unsplash.com/photo-1514228742587-6b1558fcca3d?w=400",
+      "rating": 4.5,
+      "tags": ["drinkware", "ceramic", "handmade"],
+      "variants": [
+        { "color": "White", "available": true },
+        { "color": "Blue", "available": true },
+        { "color": "Green", "available": false }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Yoga Mat Pro",
+      "description": "Extra thick yoga mat with non-slip surface. Includes carrying strap. Perfect for yoga and pilates.",
+      "price": 59.99,
+      "category": "Sports & Fitness",
+      "stock": 55,
+      "featured": false,
+      "imageUrl": "https://images.unsplash.com/photo-1601925260368-ae2f83cf8b7f?w=400",
+      "rating": 4.6,
+      "tags": ["fitness", "yoga", "exercise"],
+      "variants": [
+        { "color": "Purple", "available": true },
+        { "color": "Blue", "available": true },
+        { "color": "Pink", "available": true }
+      ]
+    }
+  ]
+}
