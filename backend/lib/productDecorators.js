@@ -1,29 +1,4 @@
 /**
- * Product Decorators - Implements the Decorator Design Pattern
- *
- * PURPOSE:
- * The Decorator pattern allows behavior to be added to individual objects
- * dynamically without affecting other objects of the same class.
- * Here, we enhance product objects with additional computed fields.
- *
- * WHEN TO USE:
- * - When you need to add responsibilities to objects dynamically
- * - When extending functionality through inheritance is impractical
- * - When you want to add features that can be combined in various ways
- * - When you need to keep the original object unchanged (immutability)
- *
- * BENEFITS:
- * - More flexible than static inheritance
- * - Decorators can be stacked/chained for multiple enhancements
- * - Follows Open/Closed Principle (open for extension, closed for modification)
- * - Preserves immutability by returning new objects
- *
- * KEY PRINCIPLE:
- * Each decorator function takes a product and returns a NEW product object
- * with additional fields, leaving the original object unchanged.
- */
-
-/**
  * DECORATOR 1: Price with Tax Calculator
  * Adds a computed 'priceWithTax' field to the product
  *

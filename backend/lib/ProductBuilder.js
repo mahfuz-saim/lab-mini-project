@@ -1,24 +1,3 @@
-/**
- * ProductBuilder - Implements the Builder Design Pattern
- *
- * PURPOSE:
- * The Builder pattern allows step-by-step construction of complex objects.
- * Instead of creating products with a large constructor or many setters,
- * we use chainable methods to build the object incrementally.
- *
- * WHEN TO USE:
- * - When an object has many optional fields
- * - When construction requires multiple steps
- * - When you want to create different representations of the same object
- * - When you need clear, readable object construction code
- *
- * BENEFITS:
- * - Improves code readability with method chaining
- * - Separates construction logic from representation
- * - Allows step-by-step object creation
- * - Easy to add new building steps without changing existing code
- */
-
 class ProductBuilder {
   constructor() {
     // Initialize an empty product object
